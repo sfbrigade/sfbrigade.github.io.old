@@ -1,4 +1,7 @@
 class BrigadesController < ApplicationController
+  
+  before_filter :authenticate_admin!, :except => [ :show ]
+  
   # GET /brigades
   # GET /brigades.json
   def index
