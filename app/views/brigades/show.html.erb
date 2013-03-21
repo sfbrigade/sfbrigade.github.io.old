@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @brigade.name %>
+</p>
+
+<p>
+  <b>Slug:</b>
+  <%= @brigade.slug %>
+</p>
+
+
+<%= link_to 'Edit', edit_brigade_path(@brigade) %> |
+<%= link_to 'Back', brigades_path %>
