@@ -58,5 +58,8 @@ module BrigadeFramework
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    # Recommended be Devise install for Rails 3.1+ deploys on Heroku
+    config.assets.initialize_on_precompile = false
   end
 end

@@ -1,5 +1,11 @@
 BrigadeFramework::Application.routes.draw do
-  root to: 'home#index'
+  devise_for :admins
+
+  root :to => "home#index"
+
+  resources :brigades
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
