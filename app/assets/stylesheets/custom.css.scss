@@ -343,6 +343,19 @@ input {
         max-width: 40%;
         margin: 0 auto 20px;
       }
+      .featurette-heading {
+        color:#000;
+      }
+      .featurette p a {
+        color:#0088cc;
+      }
+      .featurette p a.hover {
+        color:#000;
+        text-decoration: underline;
+      }
+      .row .span4 h2 {
+         color:#000;
+      }
     }
 
 
@@ -401,9 +414,20 @@ input {
   color:#0088cc;
 }
 .featurette p a.hover {
-  color:red;
+  color:#000;
   text-decoration: underline;
 }
 .row .span4 h2 {
    color:#000;
+}
+
+a.btn {
+  color: #000;
+  &:visited {
+    color: #fff;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
 }
