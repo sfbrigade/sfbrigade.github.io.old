@@ -1,7 +1,7 @@
 http://codeforhamptonroads.org
 ===================
 
-Landing page for *Code for Hampton Roads*
+Landing page for *Code for San Fran Francisco*
 
 Note that branch `gh-pages` is what shows on production codeforhamptonroads.org. Master does nothing.
 
